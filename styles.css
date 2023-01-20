@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    background-color: blue;
+    background-color: black;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;  
@@ -17,20 +17,47 @@
 .header:nth-child(1){
     display: flex;
     justify-self: flex-start;
-    padding: 10px;
-   
+    padding: 10px;   
 }
+
 .title {  
     color: white;
     font-size: 50px;
 }
-
-.main {
+#main {
     display: flex;
-    flex: 1;
-    justify-content: center;
-    font-size: xxx-large;
-    min-height: 500px;
-    background-color: bisque;
+    
+    color: white;
 
+}
+#main:nth-child(1) {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: left;
+    color: white;
+
+}
+.main.mainhello {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+   
+}
+.main.maintext {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    
+}
+.main.mainbutton {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+   
+}
+.main.mainimage {
+    display: flex;  
+    justify-content: flex-end;
+    color: white;
+   
 }
