@@ -1,0 +1,25 @@
+.box {
+    display: flex;
+    background-color: blue;
+    justify-content: flex-start;
+    
+    
+
+  }
+.box>*:first-child{
+    display: flex;
+    justify-content: flex-start;
+    color: red;
+
+}
+.header {
+    color: white;
+    align-items: space-between;
+}
+
+.title {
+    display: flex;
+    color: white;
+    justify-content: start;
+}
+
