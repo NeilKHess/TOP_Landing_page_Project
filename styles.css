@@ -3,22 +3,43 @@
     justify-content: space-between;
     list-style-type: none;
     align-items: top;
-    background-color: #1f2937  ;
+    background-color: #1f2937;
+    margin: 0px;
 }
+
 .menuoption {
     color: white;
-    margin: 10px;
+    padding-top: 20px;
+    padding-right: 30px;
     font-size: 24px;
-    padding-right: 20px;;
-
 }
+
 .logo {
     display: flex;
     justify-content: flex-start;
-
 }
 
 .menucontainertext {
     display:flex;
+}
+
+.awesomesectioncontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937 ;
+}
+
+.maindescription {
+    background-color: #1f2937;
+    color: white;
+    font-size: 40px;
+    margin: 20px;
+
+}
+
+.maindescription2 {
+    background-color: #1f2937;
+    color: white;
+    margin: 20px;
 
 }
