@@ -1,63 +1,22 @@
-.header {
+.container1 {
     display: flex;
-    background-color: black;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;  
-  }
-
-.menu {
-    color: orangered;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-    padding: 15px;
-}  
-
-.header:nth-child(1){
-    display: flex;
-    justify-self: flex-start;
-    padding: 10px;   
+    background: #1f2937;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
-
-.title {  
-    color: white;
-    font-size: 50px;
-}
-#main {
+.container1:first-child {
     display: flex;
-    
-    color: white;
-
+    flex-wrap: wrap;
 }
-#main:nth-child(1) {
-    display: flex;
+.title{
+    Display: flex;
+    Color: white;
     justify-content: flex-start;
-    justify-content: left;
-    color: white;
-
+    margin: 15px; 
 }
-.main.mainhello {
-    display: flex;
-    justify-content: flex-start;
-    color: white;
-   
-}
-.main.maintext {
-    display: flex;
-    justify-content: flex-start;
-    color: white;
-    
-}
-.main.mainbutton {
-    display: flex;
-    justify-content: flex-start;
-    color: white;
-   
-}
-.main.mainimage {
-    display: flex;  
+.menuitem{
+    Display: flex;
+    Color: white;
     justify-content: flex-end;
-    color: white;
-   
+    padding: 15px
 }
