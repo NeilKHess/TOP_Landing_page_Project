@@ -2,9 +2,8 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    align-items: top;
     background-color: #1f2937;
-    margin: 0px;
+    margin: auto;
 }
 
 .menuoption {
@@ -21,7 +20,7 @@
 
 .menucontainertext {
     display:flex;
-    padding-right: 90px;
+    padding-right: 0px;
 }
 
 
@@ -42,8 +41,7 @@
 
 .lefthalfcontent {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
     padding: 1%;
     color: white;
 }
@@ -52,11 +50,13 @@
     text-align: center;
 
 }
-.button {
-  background-color: blue; /* Green */
+.button1 {
+  display: flex;
+
+  background-color: #3882f6;;
   border: none;
   color: white;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -64,4 +64,98 @@
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
+}
+.section3title {
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-around;
+    margin:auto
+
+}
+.pictext1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    
+}
+.pictext2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+}
+.pictext3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+}
+.pictext4 {
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+}
+.squarepic {
+    border-radius: 5%;
+    border: 2px solid blue;
+}
+
+.section4 {
+    background-color: #e5e7eb;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.ctaleft{
+    display: flex;
+    flex-direction: column;
+}
+.button2 {
+    display: flex;
+  
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.section5center {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    width: 80%;
+    margin: 3%;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 3%;
+
+}
+
+.section5outer {
+    display: flex;
+    justify-content: center;
+
+
+}
+.ctaright{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    border: solid white;
+    border-radius: 10px; 
 }
